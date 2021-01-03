@@ -1,0 +1,19 @@
+package cn.demo.test;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import cn.demo.bean.Hello;
+
+public class Test {
+	@Autowired
+	private static Hello hello;
+	public static void main(String[] args) {
+		//解析beans.xml，生成相应的bean对象
+//		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+//		Hello hello = (Hello)context.getBean("hello");
+		hello.setName("123");
+		hello.show();
+	}
+}
