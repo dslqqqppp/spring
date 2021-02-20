@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
-		<item value="false" key="casesensitive"/>
-		<item value="false" key="incremental"/>
-		<item value="true" key="wrap"/>
-		<item value="false" key="wholeword"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value=""/>
+		<item key="casesensitive" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="wrap" value="true"/>
+		<item key="wholeword" value="false"/>
 		<list key="findhistory">
+			<item value="package"/>
+			<item value="EventListenerBean"/>
+			<item value="addListener"/>
+			<item value="initialize"/>
+			<item value="eventListener"/>
+			<item value="EventPublisherBean"/>
 			<item value="init"/>
 			<item value="mvc"/>
 		</list>
@@ -15,10 +21,10 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="300" key="DIALOG_WIDTH"/>
-		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
-		<item value="409" key="DIALOG_HEIGHT"/>
-		<item value="818" key="DIALOG_X_ORIGIN"/>
-		<item value="256" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="405"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+		<item key="DIALOG_HEIGHT" value="511"/>
+		<item key="DIALOG_X_ORIGIN" value="1377"/>
+		<item key="DIALOG_Y_ORIGIN" value="398"/>
 	</section>
 </section>

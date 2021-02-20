@@ -4,7 +4,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import cn.demo.bean.SpringConfiguration;
+import cn.demo.bean.MainConfig;
 import cn.demo.bean.Student;
 
 public class Test {
@@ -20,7 +20,7 @@ public class Test {
 
 		// 使用@Bean创建bean对象
 		AnnotationConfigApplicationContext applicationContext = 
-				new AnnotationConfigApplicationContext(SpringConfiguration.class);
+				new AnnotationConfigApplicationContext(MainConfig.class);
 		Student studentByConifg = (Student) applicationContext.getBean("student");
 		System.out.println("使用@Bean创建bean对象." 
 				+ "id:" + studentByConifg.getAge() 
